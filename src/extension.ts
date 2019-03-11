@@ -31,7 +31,8 @@ export function activate(context: vscode.ExtensionContext) {
 				token: vscode.CancellationToken,
 				context: vscode.CompletionContext
 			){
-				vscode.window.showInformationMessage(`${position.line},${position.character}`);
+				
+
 				let completeItems: Array<vscode.CompletionItem> = [];
 				keyWords.forEach( item => {
 					let completeItem = new vscode.CompletionItem(item.toLocaleLowerCase())

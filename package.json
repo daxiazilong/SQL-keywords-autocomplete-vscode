@@ -3,11 +3,12 @@
 	"displayName": "sql-autocomplete",
 	"description": "complete for sql",
 	"version": "0.0.1",
+	"publisher":"zilong",
 	"engines": {
 		"vscode": "^1.32.0"
 	},
 	"categories": [
-		"Other"
+		"Snippets"
 	],
 	"activationEvents": [
 		"onLanguage:sql"
@@ -26,5 +27,6 @@
 		"tslint": "^5.12.1",
 		"@types/node": "^10.12.21",
 		"@types/mocha": "^2.2.42"
-	}
+	},
+	"icon":"sql20190311.jpg"
 }
